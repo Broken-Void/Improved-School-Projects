@@ -60,7 +60,7 @@ class AgeChecker():
         self.frame1.grid(row=0, column=0)
         
         #================= Image =================#
-        image = Image.open("images//age.png")
+        image = Image.open("images/age.png")
         resize_image = image.resize((450, 170))
         my_img1 = ImageTk.PhotoImage(resize_image)
 
@@ -150,7 +150,7 @@ class LoginChoice():
         self.check = tk.IntVar()
 
         #================= Sets the image =================#  
-        image2 = Image.open("images//login.png")
+        image2 = Image.open("images/login.png")
         resize_image2 = image2.resize((175, 160))
         my_img2 = ImageTk.PhotoImage(resize_image2)
 
@@ -201,7 +201,7 @@ class LoginChoice():
             newUser = tk.StringVar()
             newPass = tk.StringVar()
             
-            image3 = Image.open("images//createacc.png")
+            image3 = Image.open("images/createacc.png")
             resize_image3 = image3.resize((170, 160))
             my_img3 = ImageTk.PhotoImage(resize_image3)
 
@@ -363,7 +363,7 @@ class MenuChoice():
         infobtnFrame.grid(row = 2, column=1, padx=5, pady=5)
         
         #================= Image Set =================#
-        image4 = Image.open("images//bdsc_logo.png")
+        image4 = Image.open("images/bdsc_logo.png")
         resize_image4 = image4.resize((200, 150))
         my_img4 = ImageTk.PhotoImage(resize_image4)
 
